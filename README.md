@@ -1,5 +1,8 @@
 # pcomp
 
+![Uploading image.png…]()
+
+
 `pcomp` is a tool inspired by [PCPartPicker](https://pcpartpicker.com/), designed specifically for the Indonesian market. This repository focuses on scraping computer hardware prices from local Indonesian retailers, currently supported by **EnterKomputer** and **Viraindo**, and storing the data in BigQuery for further analysis and processing.
 
 ## Features
