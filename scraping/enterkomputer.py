@@ -28,7 +28,7 @@ response = session.get('https://www.enterkomputer.com/category/17/processor')
 
 # cookies
 cookies = session.cookies.get_dict()
-str_cookies = f"ess={cookies['ess']}; csrf_cookie_name={cookies['csrf_cookie_name']}"
+str_cookies = f"enter_session={cookies['enter_session']}; csrf_cookie_name={cookies['csrf_cookie_name']}"
 
 # token 
 token_pattern = r'data-api-token="([^"]+)"'
