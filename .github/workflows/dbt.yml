@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 1 * * 2'  # Dedup at 1 AM every Tuesday
   workflow_dispatch:  # Allows manual triggering
+  push:
+    paths:
+      - 'dbt_comp/**'  # Trigger on push to any file in the dbt_comp folder
 
 env:
   DBT_PROFILES_DIR: ./dbt_pcomp
